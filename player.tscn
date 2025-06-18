@@ -1,0 +1,27 @@
+[gd_scene load_steps=6 format=3 uid="uid://bawfkbvhm4rrj"]
+
+[ext_resource type="Texture2D" uid="uid://kisosjtwgl1n" path="res://icon.svg" id="1_4flbx"]
+[ext_resource type="Script" uid="uid://i71asapru7i2" path="res://player.gd" id="1_i3pqv"]
+[ext_resource type="PackedScene" uid="uid://d3r1y8pa1tx44" path="res://bullet.tscn" id="2_hqtel"]
+[ext_resource type="Script" uid="uid://ci0k228ihh2ju" path="res://sprite_2d.gd" id="2_onrkg"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_onrkg"]
+size = Vector2(126, 128)
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_i3pqv")
+bullet_scene = ExtResource("2_hqtel")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(110, 91)
+texture = ExtResource("1_4flbx")
+script = ExtResource("2_onrkg")
+
+[node name="Marker2D" type="Marker2D" parent="Sprite2D"]
+position = Vector2(0, 4)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(110, 93)
+shape = SubResource("RectangleShape2D_onrkg")
+
+[node name="Bullet" parent="." instance=ExtResource("2_hqtel")]
