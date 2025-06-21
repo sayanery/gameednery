@@ -1,9 +1,9 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1750384001
-bullet.gd::GDScript/GDScript::4411538360837458041::1750332595::0::1::::<>Area2D<><>0<>0<><>::
-bullet.tscn::PackedScene::9161267352107011787::1750332808::0::1::::<><><>0<>0<><>::uid://b338nlp0ofjor::::res://bullet.gd<>uid://kisosjtwgl1n::::res://icon.svg
-enemy.tscn::PackedScene::5512104883081310326::1750345544::0::1::::<><><>0<>0<><>::
-icon.svg::CompressedTexture2D/CompressedTexture2D::719522325613731165::1750332595::1750332652::1::::<><><>0<>0<>e125dc9212d30231db1704af55cf36cb<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-player.gd::GDScript/GDScript::629150425171475003::1750332595::0::1::::<>CharacterBody2D<><>0<>0<><>::
-player.tscn::PackedScene::2432158522484784343::1750332808::0::1::::<><><>0<>0<><>::uid://kisosjtwgl1n::::res://icon.svg<>uid://i71asapru7i2::::res://player.gd<>uid://d3r1y8pa1tx44::::res://bullet.tscn<>uid://ci0k228ihh2ju::::res://sprite_2d.gd
-sprite_2d.gd::GDScript/GDScript::5386618416187196442::1750332595::0::1::::<>Sprite2D<><>0<>0<><>::
+::res://::1750504678
+bullet.gd::GDScript::4411538360837458041::1750504635::0::1::::<>Area2D<><>0<>0<><>::
+bullet.tscn::PackedScene::9161267352107011787::1750504635::0::1::::<><><>0<>0<><>::uid://b338nlp0ofjor::::res://bullet.gd<>uid://kisosjtwgl1n::::res://icon.svg
+enemy.tscn::PackedScene::5512104883081310326::1750504635::0::1::::<><><>0<>0<><>::
+icon.svg::CompressedTexture2D/CompressedTexture2D::719522325613731165::1750504635::1750504680::1::::<><><>0<>0<>e125dc9212d30231db1704af55cf36cb<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+player.gd::GDScript::629150425171475003::1750504635::0::1::::<>CharacterBody2D<><>0<>0<><>::
+player.tscn::PackedScene::2432158522484784343::1750504635::0::1::::<><><>0<>0<><>::uid://kisosjtwgl1n::::res://icon.svg<>uid://i71asapru7i2::::res://player.gd<>uid://d3r1y8pa1tx44::::res://bullet.tscn<>uid://ci0k228ihh2ju::::res://sprite_2d.gd
+sprite_2d.gd::GDScript::5386618416187196442::1750504635::0::1::::<>Sprite2D<><>0<>0<><>::
